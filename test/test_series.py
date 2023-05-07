@@ -31,12 +31,23 @@ def test_lucas_string():
      assert lucas(-1) == "Incorrect input"
 
 
-def test_sum_fib():
-     assert sum_series(5,0,1) == 5
+# def test_sum_fib():
+#      assert sum_series(5,0,1) == 5
      
-def test_sum_lucas():
-     assert sum_series(5,2,1) == 11
+# def test_sum_lucas():
+#      assert sum_series(5,2,1) == 11
 
-def test_sum_other():
-     assert sum_series(5,2,3) == "another sereies"
+# def test_sum_other():
+#      assert sum_series(5,2,3) == "another sereies"
+
+def test_sum_series():
+    actual1=sum_series(5)
+    actual2=sum_series(1,2,1)
+    actual3=sum_series(3,3,4)
+    expected1=5
+    expected2=1
+    expected3=11
+    assert actual1==expected1 
+    assert actual2==expected2 
+    assert actual3==expected3
      
