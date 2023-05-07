@@ -4,7 +4,7 @@ def fibonacci(n):
     # Check if input is 0 then it will
     # print incorrect input
     if n < 0:
-        print("Incorrect input")
+        return("Incorrect input")
  
     # Check if n is 0
     # then it will return 0
@@ -20,6 +20,9 @@ def fibonacci(n):
         return fibonacci(n-1) + fibonacci(n-2)
     
 def lucas(n):
+
+    if n < 0:
+        return("Incorrect input")
    
     # Base cases
     if n == 0:

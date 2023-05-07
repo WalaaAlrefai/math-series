@@ -4,9 +4,8 @@
 
 
 
-How to initialize/run the application
-e.g. python series.py
+### How to initialize/run the application
+ __python series.py__
 
-How do you run tests?
-Any tests of note?
-Describe any tests that you did not complete, skipped, etc
+### How do you run tests?
+__pytest__
